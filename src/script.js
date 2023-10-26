@@ -1,7 +1,7 @@
 "use strict";
 
 const randomDamage=() => {
-    let randNum = Math.floor(Math.random() * 11)
+    let randNum = Math.floor(Math.random() * 10) + 1
     return randNum
 }
 
